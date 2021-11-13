@@ -1,3 +1,5 @@
-<ul *ngFor = "let product in products">
-  <li>{{ product.albumName }}</li>
+<ul>
+  <li *ngFor = "let product of products">
+    <a href="">{{ product.albumName }}</a>
+  </li>
 </ul>
